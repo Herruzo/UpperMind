@@ -5,7 +5,7 @@
 ---
 ## 📥 Descargar la aplicación completa.
 
-💾 [Descargar UpperMind.exe (última versión)](https://github.com/Herruzo/UpperMind/releases/latest)
+💾 [Descargar UpperMind (última versión)](https://github.com/Herruzo/UpperMind/releases/latest)
 
 ---
 
