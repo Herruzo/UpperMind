@@ -1,0 +1,41 @@
+UpperMind es una aplicación de escritorio para Windows diseñada para analizar imágenes de resonancia magnética cerebral (MRI) y detectar el grado de deterioro cognitivo que pudiera presentar un paciente.
+
+Esta herramienta ha sido desarrollada utilizando la librería PyQt5 de Python y se apoya en dos modelos de inteligencia artificial:
+
+1. **Modelo de filtrado**: Determina si la imagen cargada corresponde efectivamente a una resonancia magnética (MRI) con una eficiencia del 100%.
+2. **Modelo de diagnóstico**: Clasifica la imagen en una de las siguientes cuatro categorías, con una eficiencia del 98.62%:
+   - **AD**: Alzheimer
+   - **CN**: Cognitivamente Normal
+   - **EMCI**: Deterioro Cognitivo Leve Temprano
+   - **LMCI**: Deterioro Cognitivo Leve Tardío
+
+### Funcionamiento
+
+Una vez ejecutado el archivo `UpperMind.exe`, la aplicación puede tardar aproximadamente **55 segundos** en cargar, dependiendo de la capacidad del equipo. Este tiempo corresponde a la carga en memoria de los modelos de IA.
+
+Tras la carga inicial, la primera imagen puede requerir unos **15 segundos** en procesarse. A partir de ahí, las validaciones siguientes se realizan de forma instantánea.
+
+**Nota importante**: La aplicación debe ejecutarse directamente desde la carpeta `UpperMind`, que contiene:
+- El ejecutable `UpperMind.exe`
+- La subcarpeta `_internal` (esencial para su funcionamiento)
+
+También se proporciona una carpeta llamada `Imagenes_Validar`, con 200 imágenes MRI clasificadas (AD, CN, EMCI y LMCI). Estas imágenes **no han sido utilizadas durante el entrenamiento** de los modelos, por lo que sirven como prueba objetiva en condiciones similares a un entorno real.
+
+### Formato y características de las imágenes
+
+- **Resolución**: 190 × 200 píxeles
+- **Tipo**: Imagen 2D en escala de grises (MRI cerebral)
+- **Corte**: Corte axial (transversal), es decir, horizontal, mostrando el cerebro desde abajo hacia arriba
+
+El uso de imágenes en otros formatos o tipos de corte podría provocar errores de validación.
+
+### Finalidad de la aplicación
+
+Esta herramienta no pretende sustituir el criterio médico, sino actuar como un **apoyo complementario al diagnóstico clínico**, ofreciendo una estimación rápida, objetiva y basada en datos reales.
+
+Se incluye además un vídeo demostrativo que muestra el funcionamiento completo de la aplicación.
+
+---
+
+Para cualquier duda o propuesta de colaboración, puedes contactar directamente con el autor del proyecto `Antonio Mata` en el correo `ant.mata@hotmail.com`
+
