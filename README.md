@@ -3,6 +3,11 @@
 **UpperMind** es una aplicación de escritorio desarrollada para el sistema operativo **Windows**, diseñada con el objetivo de ayudar en la **detección temprana del Alzheimer** mediante el análisis automático de imágenes de resonancia magnética cerebral (MRI) utilizando modelos de inteligencia artificial.
 
 ---
+## 📥 Descargar la aplicación completa.
+
+💾 [Descargar UpperMind.exe (última versión)](https://github.com/Herruzo/UpperMind/releases/latest)
+
+---
 
 ## 📁 Estructura del proyecto
 
@@ -19,12 +24,6 @@ UpperMind/
 ├── UpperMind.exe                         # Ejecutable principal de la aplicación
 └── Video_demo.mp4                        # Vídeo demostrativo del funcionamiento
 ```
-
----
-
-## 📥 Descargar la aplicación
-
-💾 [Descargar UpperMind.exe (última versión)](https://github.com/Herruzo/UpperMind/releases/latest)
 
 ---
 
